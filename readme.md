@@ -1,4 +1,7 @@
 
+
+Running a decision tree model with mlflow.
+
 # setup
 
 ```bash
@@ -15,8 +18,11 @@ pip install -r requirements.txt
 # run
 
 ```bash
-$ python tree.py
-[185, 82, 44] male
-[170, 75, 41] male
-[160, 70, 38] female
+$ python tree.py <max_depth> <criterion>
+```
+
+# check results
+
+```bash
+mlflow ui
 ```
