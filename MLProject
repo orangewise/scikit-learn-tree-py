@@ -1,0 +1,10 @@
+name: test
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      max_depth: {type: int, default: 130}
+      criterion: {type: str, default: gini}
+    command: "python tree.py {max_depth} {criterion}"

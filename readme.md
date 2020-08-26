@@ -2,7 +2,7 @@
 
 Running a decision tree model with mlflow.
 
-# setup
+# development setup
 
 ```bash
 # create virtual env
@@ -15,7 +15,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-# run
+# development run
 
 ```bash
 $ python tree.py <max_depth> <criterion>
@@ -25,4 +25,11 @@ $ python tree.py <max_depth> <criterion>
 
 ```bash
 mlflow ui
+```
+
+
+# mlflow run
+
+```bash
+mlflow run .
 ```
